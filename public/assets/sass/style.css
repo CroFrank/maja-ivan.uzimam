@@ -6534,7 +6534,7 @@ a.ui-button:active,
 .wpo-site-footer-s3 .wpo-upper-footer,
 .wpo-site-footer-s4 .wpo-upper-footer,
 .wpo-site-footer-s5 .wpo-upper-footer {
-  padding: 120px 0px;
+  padding: 80px 0px;
   position: relative;
   z-index: 1;
 }
@@ -6649,7 +6649,6 @@ a.ui-button:active,
   color: #fff;
   line-height: 40px;
   margin-bottom: 0;
-  margin-left: -25px;
 }
 
 @media (max-width: 991px) {
@@ -11549,8 +11548,6 @@ a.ui-button:active,
   text-align: center;
   margin-bottom: 100px;
 }
-
-
 
 @media (max-width: 575px) {
   .wpo-event-section-s2 .event-description {
