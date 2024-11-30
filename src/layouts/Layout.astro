@@ -1,3 +1,9 @@
+---
+import Footer from "../components/Footer.astro"
+import Nav from "../components/Nav.astro"
+import Preloader from "../components/Preloader.astro"
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,7 +16,7 @@
       type="image/png"
       href="assets/images/favicon.png"
     />
-    <title>Sukun - Wedding & Wedding Planner HTML5 Template</title>
+    <title>Uzimam -</title>
     <link href="assets/css/themify-icons.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
     <link href="assets/css/flaticon.css" rel="stylesheet" />
@@ -31,9 +37,12 @@
   </head>
 
   <body>
-    <main>
+    <div class="page-wrap">
+      <Preloader />
+      <Nav />
       <slot />
-    </main>
+      <Footer />
+    </div>
 
     <script src="/assets/js/jquery.min.js" is:inline></script>
     <script src="/assets/js/bootstrap.bundle.min.js" is:inline></script>
